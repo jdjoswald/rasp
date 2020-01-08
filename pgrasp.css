@@ -1,4 +1,5 @@
 body{
+    align-items: center;
     background: -webkit-repeating-radial-gradient(center, ellipse,  rgb(112, 121, 126), white);
     /*background: -webkit-linear-gradient(left, rgb(76, 183, 253), white) ;*/
     background: -moz-radial-gradient(center, ellipse, blue, aqua); 
@@ -27,14 +28,21 @@ section{
 figure{
     float: left;
     width: 200px;
-    height: 200px;
+    height: 150px;
+    border-radius: 10px;
     /*text-align: center;*/
     background-image: url("https://images.idgesg.net/images/article/2019/02/iot_internet_of_things_by_jackie_niam_gettyimages-996958260_2400x1600-100788446-large.jpg");
 }
 
 form {
-    background-color: antiquewhite;
+    background-color: transparent;
     float: left;
     margin: 0px 15px;
+}
+
+button{
+    color: blue;
+    border-radius: 15px;
+    background-color: aliceblue;
 }
 
