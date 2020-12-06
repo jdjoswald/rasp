@@ -7,6 +7,6 @@
     <title>cuarto de joswald</title>
     <link rel="stylesheet" href="pgrasp.css">
 
-    <script src="botones.js"></script>
+   
 
 </head>
